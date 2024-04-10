@@ -8,6 +8,9 @@
     height: 10rem;
 }
 
+/* Footer */
+
+
 /* Index */
 .containerCards{
     display: flex;
@@ -38,4 +41,11 @@
         bottom: 1rem;
         right: 1rem;
     }
+
+    /* Footer */
+    footer{
+        height: 4rem;
+        overflow: auto;
+    }
+
 }
