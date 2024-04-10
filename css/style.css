@@ -1,0 +1,41 @@
+
+/* General */
+#arriba{
+    display: none;
+}
+
+.espacio{
+    height: 10rem;
+}
+
+/* Index */
+.containerCards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+/* login */
+
+.error-message {
+    display: none;
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  input:invalid + .error-message {
+    display: block;
+  }
+  
+  
+
+@media (max-width: 576px) {
+    #arriba{
+        display: block;
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+    }
+}

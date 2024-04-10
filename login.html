@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="plugins/bootstrap/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark-subtle">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">Examen UF2217</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/registroProducto.html">Registro Producto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/administrador.html">Administrador</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              Gonzalo Lecumberri
+            </span>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <div class="card login-form">
+                  <div class="card-header text-center">
+                    <h4>Login</h4>
+                  </div>
+                  <div class="card-body">
+
+                    
+                    <form>
+                      <div class="form-group">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" id="inputEmail" class="form-control" placeholder="Introduce tu email" required autofocus>
+                        <div class="error-message" id="email-error">Por favor, introduce tu email.</div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputPassword">Password</label>
+                        <input type="password" id="inputPassword" class="form-control" placeholder="Contraseña" required>
+                        <div class="error-message" id="password-error">Por favor, introduce tu contraseña.</div>
+                      </div>
+                      <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+        
+      </main>
+
+
+      <div class="espacio"></div>
+      <footer class="text-center d-md-flex d-sm-block flex-sm-row flex-md-row justify-content-around fixed-bottom align-items-center bg-light py-3 w-100">
+        <ul id="redes" class="d-sm-block list-unstyled">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+        <ul id="info" class="d-sm-block list-unstyled">
+          <li><a href="#">Politica de privacidad</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Localización</a></li>
+        </ul>
+        <p id="copyright" class="d-sm-block ">
+          &copy;2024 Gonzalo Lecumberri
+        </p>
+
+        <p id="arriba"><a href="#">TOP</a></p>
+      </footer>
+</body>
+</html>
