@@ -18,6 +18,45 @@
     gap: 1rem;
 }
 
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.contenedor button,
+.contenedor input {
+    margin: 0;
+    padding: 5px 10px;
+    border: none;
+    background-color: #f0f0f0;
+    font-size: 16px;
+}
+
+.contenedor button{
+    cursor: pointer;
+}
+
+.contenedor button:hover{
+    background-color: rgb(138, 165, 215);
+}
+
+.contenedor button.btnMenos {
+    border-top-left-radius: 15px; 
+    border-bottom-left-radius: 15px; 
+}
+
+.contenedor button.btnMas {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px; 
+}
+
+.contenedor input {
+    width: 50px;
+    text-align: center;
+}
+
+
 
 /* login */
 
